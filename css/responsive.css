@@ -115,7 +115,7 @@ input[type="password"] {
 	font-size: 20px;
 	}
 
-textarea {
+.comment {
 	font-size: 20px;
 	}
 
@@ -315,7 +315,7 @@ input[type="password"] {
 	font-size: 16px;
 	}
 
-textarea {
+.comment {
 	font-size: 16px;
 	}
 
