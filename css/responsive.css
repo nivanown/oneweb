@@ -167,6 +167,10 @@ input[type="password"] {
 	gap: 30px 30px;
 	}
 
+p br {
+	display: none;
+	}
+
 }
 
 /* 767 */
