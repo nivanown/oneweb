@@ -81,7 +81,6 @@ document.addEventListener('mouseup', () => {
   document.removeEventListener('mousemove', moveThumb);
 });
 
-// Добавляем обработчик клика на пункты
 points.forEach((point, index) => {
   point.addEventListener('click', () => {
     thumb.style.left = `${positions[index]}%`;
@@ -145,27 +144,6 @@ $(() => {
   initializeCalc();
   calculatePrice();
 });
-
-/*- textarea -*/
-autosize();
-function autosize(){
-
-  var text = $('.textarea');
-
-  text.each(function(){
-    $(this).attr('rows',1);
-    resize($(this));
-  });
-
-  text.on('input', function(){
-    resize($(this));
-  });
-  
-  function resize ($text) {
-    $text.css('height', 'auto');
-    $text.css('height', $text[0].scrollHeight+'px');
-  }
-}
 
 /*- auto-field -*/
 var inputElements = document.getElementsByClassName("auto-field__input");
