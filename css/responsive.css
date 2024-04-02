@@ -359,4 +359,12 @@ p {
   line-height: 17px;
 	}
 
+.meter-slider {
+	margin: 0 0 30px;
+	}
+
+.price-panel input[type="text"] {
+	width: 100px;
+	}
+
 }
